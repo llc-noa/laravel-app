@@ -18,7 +18,7 @@ services:
     mysql:
         image: mysql:5.7
         environment:
-            MYSQL_DATABASE: larave-db
+            MYSQL_DATABASE: laravel-db
             MYSQL_USER: rsugaya
             MYSQL_PASSWORD: rsugaya
             MYSQL_ROOT_PASSWORD: root
